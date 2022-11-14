@@ -63,6 +63,10 @@ img {
   margin-right: 345px;
 }
 
+.portfolio-header {
+  border-bottom: 1px solid #ececec;
+}
+
 .menu-nav {
   font-weight: 500;
   font-size: 14px;
@@ -145,6 +149,7 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding: 10px 32px;
 }
 
 .order-button:hover,
@@ -194,6 +199,10 @@ img {
 .activity-list {
   display: flex;
   gap: 30px;
+}
+
+.activity-img {
+  display: block;
 }
 
 .team-container {
@@ -266,18 +275,23 @@ img {
   border: 0ch;
   cursor: pointer;
   margin-bottom: 50px;
+  padding: 6px 22px;
 }
 
 .portfolio-button:hover,
 .portfolio-button:focus {
   background-color: #2196f3;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+}
+
+.portfolio-link {
+  text-decoration: none;
 }
 
 .portfolio-container {
@@ -289,10 +303,10 @@ img {
   font-size: 18px;
   line-height: calc(36 / 18);
   letter-spacing: 0.06em;
-  margin-top: 20px;
   margin-bottom: 4px;
   margin-left: 24px;
   margin-right: 24px;
+  color: #212121;
 }
 
 .project-type {
@@ -307,7 +321,9 @@ img {
 .portfolio-project {
   background: #ffffff;
   border: 1px solid #eeeeee;
+  border-top: 0px;
   flex-basis: calc((100% - 30px * 2) / 4);
+  padding-top: 20px;
   padding-bottom: 20px;
 }
 
